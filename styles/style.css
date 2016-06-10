@@ -3,3 +3,24 @@ background-color: #918e94
 text-align: center;
 color: red;
 }
+
+.formulario {
+  background-color: #BF00FF;
+  width: 30%;
+  margin: auto;
+  color: #0000FF;
+  text-align: center;
+  padding: 20px;
+  border-style: solid;
+  border-width: 100px;
+  border-color: #9AFE2E;
+}
+
+a{
+  font-family:arial;
+  color: #6A0888;
+}
+
+#nombre{
+  color: #FF0000;
+}

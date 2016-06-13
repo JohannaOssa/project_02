@@ -12,7 +12,7 @@ color: red;
   text-align: center;
   padding: 20px;
   border-style: solid;
-  border-width: 100px;
+  border-width: 30px;
   border-color: #9AFE2E;
 }
 
@@ -25,7 +25,12 @@ a{
   color: #FF0000;
 }
 
+<<<<<<< HEAD
 button{
 background-color: #C8FE2E;
 border-color: #C8FE2E;
+=======
+.button_1{
+  background-color:#FA58D0!important
+>>>>>>> Tarea2
 }

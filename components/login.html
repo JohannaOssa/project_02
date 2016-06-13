@@ -2,13 +2,15 @@
   <head>
     <title style="font-family:courier;">Iniciar Sesión</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href="../styles/style.css"></link>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"></link>
   </head>
 
-  <body style="background-color:#FA8258;">
+  <body>
     <center>
       <div>
         <form>
-          <table border="10">
+          <table class="table">
             <tr>
               <td><label for="user">Usuario:</label></td>
               <td><input type="text" name="user"></td>
@@ -19,13 +21,20 @@
               <td><input type="text" name="pass"></td>
             </tr>
           </table>
+          <div class="checkbox">
+              <label><input type="checkbox"> Recordarme</label>
+          </div>
           <br/>
-          <button type="submit" value="Enviar">Iniciar Sesión</button>
-          <button type="reset" value="Cancelar">Cancelar</button>
+          <button type="button" class="btn btn-success">Iniciar Sesión</button>
+          <button type="button" class="btn btn-default">Cancelar
+          <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+          </button>
         </form>
       </div>
       <div>
-        <a href="../index.html">Regresar</a>
+        <button class="button_1" type="button" class="btn btn-default" onclick="location='../index.html'">
+          <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
+        </button>
       </div>
     </center>
   </body>

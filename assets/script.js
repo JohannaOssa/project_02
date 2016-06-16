@@ -2,6 +2,6 @@ function aaaa (){
 var user, Pass
 
   user="Johanna"
-  Pass="hola"
+  Pass="Hola"
   alert(user+ ' '+Pass)
 };
